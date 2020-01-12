@@ -25,6 +25,8 @@ def by_all_but_first_letter(one_word):
     return one_word[1:]
 
 
+sorted(words, key=by_all_but_first_letter)
+
 for one_shoe in shoes:
     print(one_shoe)
 
