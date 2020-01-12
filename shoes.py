@@ -26,6 +26,14 @@ def by_size(shoe_dict):
 
 shoes = sorted(shoes, key=by_size)
 
+
+def by_brand_and_size(shoe_dict):
+    return shoe_dict['brand'], shoe_dict['size']
+
+
+shoes = sorted(shoes, key=by_brand_and_size)
+
+
 # (2) sort shoes first by brand, then by size within brand
 
 
