@@ -4,6 +4,7 @@ x = 100
 
 
 def myfunc():
+    global x
     x = 200
     print(f'In myfunc, x = {x}')
 
