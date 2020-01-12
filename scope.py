@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 
-from os import sep
 import __main__
 
 x = 100
-y = [10, 20, 30]
 
 
 def myfunc():
     __main__.x = 200
-    y[0] = '!'
     print(f'In myfunc, x = {x}')
 
 
