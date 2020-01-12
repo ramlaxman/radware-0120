@@ -36,7 +36,7 @@ shoes = sorted(shoes, key=by_brand_and_size)
 
 sort_fields = input("Sort by: ").split()
 
-sorted(shoes, key=operator.itemgetter(*sort_fields))
+shoes = sorted(shoes, key=operator.itemgetter(*sort_fields))
 
 # (2) sort shoes first by brand, then by size within brand
 
