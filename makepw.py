@@ -5,10 +5,10 @@ import random
 
 def make_password_generator(s):
     def make_password(n):
-        output = ''
+        output = []
         for i in range(n):
-            output += random.choice(s)
-        return output
+            output.append(random.choice(s))
+        return ''.join(output)
     return make_password
 
 
