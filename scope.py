@@ -9,5 +9,6 @@ print(f'x = {x}')
 # L Local
 # E Enclosing
 
+# if not in a function, start here
 # G Global
 # B Builtins
