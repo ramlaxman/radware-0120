@@ -13,4 +13,4 @@ def mysum(numbers: Sequence[Union[int, float]]) -> Union[int, float]:
 print(mysum([10, 20, 30]))
 print(mysum([10, 20.3, 30]))
 print(mysum((10, 20, 30, 40)))
-print(mysum([10, '20', 30]))
+# print(mysum([10, '20', 30]))
