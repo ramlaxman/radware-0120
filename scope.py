@@ -9,7 +9,6 @@ y = [10, 20, 30]
 
 def myfunc():
     __main__.x = 200
-    sep = '???'
     y[0] = '!'
     print(f'In myfunc, x = {x}')
 
