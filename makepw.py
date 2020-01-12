@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import random
-random.choice('abc')
 
 
 make_text_pw = make_password_generator('abcde')
