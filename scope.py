@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
 x = 100
+y = [10, 20, 30]
 
 
 def myfunc():
     global x
     x = 200
+    y[0] = '!'
     print(f'In myfunc, x = {x}')
 
 
