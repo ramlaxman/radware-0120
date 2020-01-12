@@ -18,14 +18,8 @@ shoes = [line_to_dict(one_line)
          for one_line in open(filename)]
 
 
-# (1) sort shoes by size
 # (2) sort shoes first by brand, then by size within brand
 
-def by_all_but_first_letter(one_word):
-    return one_word[1:]
-
-
-sorted(words, key=by_all_but_first_letter)
 
 for one_shoe in shoes:
     print(one_shoe)
