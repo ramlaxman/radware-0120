@@ -10,6 +10,9 @@ def line_to_dict(one_line):
     #         'color': color,
     #         'size': size}
 
+    return dict(zip(['brand', 'color', 'size'],
+                    one_line.strip().split('\t')))
+
 
 shoes = [line_to_dict(one_line)
          for one_line in open(filename)]
