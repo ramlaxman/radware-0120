@@ -4,7 +4,7 @@ x = 100
 
 
 def myfunc():
-    x = x + 1
+    x = 200
     print(f'In myfunc, x = {x}')
 
 
