@@ -4,8 +4,8 @@ x = 100
 
 
 def myfunc():
+    x = x + 1
     print(f'In myfunc, x = {x}')
-    x = 200
 
 
 print(f'Before, x = {x}')
