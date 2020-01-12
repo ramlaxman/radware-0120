@@ -5,6 +5,8 @@ filename = 'shoe-data.txt'
 shoes = [one_line
          for one_line in open(filename)]
 
+for one_shoe in shoes:
+    print(one_shoe)
 
 # [
 #     {'brand': 'Adidas',
