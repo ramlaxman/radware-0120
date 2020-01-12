@@ -14,9 +14,7 @@ def line_to_dict(one_line):
                     one_line.strip().split('\t')))
 
 
-shoes = [dict([('brand', one_line.split('\t')[0]),
-               ('color', one_line.split('\t')[1]),
-               ('size', one_line.split('\t')[2])])
+shoes = [line_to_dict(one_line)
          for one_line in open(filename)]
 
 for one_shoe in shoes:
