@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from typing import List
+from typing import List, Union
 
 
-def mysum(numbers: List[float]) -> float:
+def mysum(numbers: List[Union[int, float]]) -> Union[int, float]:
     total = 0
     for one_number in numbers:
         total += one_number
