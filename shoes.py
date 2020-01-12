@@ -19,6 +19,7 @@ shoes = [line_to_dict(one_line)
 
 # (1) sort shoes by size
 
+shoes = sorted(shoes, key=by_size)
 
 # (2) sort shoes first by brand, then by size within brand
 
