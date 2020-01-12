@@ -4,7 +4,11 @@ filename = 'shoe-data.txt'
 
 
 def line_to_dict(one_line):
-    return {}
+    brand, color, size = one_line.split('\t')
+
+    return {'brand': brand,
+            'color': color,
+            'size': size}
 
 
 shoes = [line_to_dict(one_line)
