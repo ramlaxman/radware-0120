@@ -2,7 +2,14 @@
 
 x = 100
 
-print(f'x = {x}')
+
+def myfunc():
+    print(f'In myfunc, x = {x}')
+
+
+print(f'Before, x = {x}')
+myfunc()
+print(f'After, x = {x}')
 
 
 # if in a function, start here
