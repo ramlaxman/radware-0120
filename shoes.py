@@ -17,6 +17,8 @@ def line_to_dict(one_line):
 shoes = [line_to_dict(one_line)
          for one_line in open(filename)]
 
+# (1) sort shoes by size
+
 
 # (2) sort shoes first by brand, then by size within brand
 
