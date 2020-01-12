@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+from typing import List
 
-def mysum(numbers: list) -> int:
+
+def mysum(numbers: List) -> int:
     total = 0
     for one_number in numbers:
         total += one_number
