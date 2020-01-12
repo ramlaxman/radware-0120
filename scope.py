@@ -5,7 +5,7 @@ x = 100
 print(f'x = {x}')
 
 
-# Local
-# Enclosing
-# Global
-# Builtins
+# L Local
+# E Enclosing
+# G Global
+# B Builtins
