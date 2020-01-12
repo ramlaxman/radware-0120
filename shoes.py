@@ -2,7 +2,12 @@
 
 filename = 'shoe-data.txt'
 
-shoes = [one_line
+
+def line_to_dict(one_line):
+    return {}
+
+
+shoes = [line_to_dict(one_line)
          for one_line in open(filename)]
 
 for one_shoe in shoes:
