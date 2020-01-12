@@ -3,6 +3,15 @@
 import random
 
 
+def make_password_generator(s):
+    def make_password(n):
+        output = ''
+        for i in range(n):
+            output += random.choice(s)
+        return output
+    return make_password
+
+
 make_text_pw = make_password_generator('abcde')
 make_stronger_pw = make_password_generator('abcde!@#$%')
 
