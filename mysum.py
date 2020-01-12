@@ -4,7 +4,7 @@ from typing import List, Union
 
 
 def mysum(numbers: List[Union[int, float]]) -> Union[int, float]:
-    total = 0
+    total: Union[int, float] = 0
     for one_number in numbers:
         total += one_number
     return total
