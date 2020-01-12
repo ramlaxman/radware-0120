@@ -7,6 +7,10 @@ def myfunc():
     print(f'In myfunc, x = {x}')
 
 
+def other():
+    myfunc()
+
+
 print(f'Before, x = {x}')
 myfunc()
 print(f'After, x = {x}')
