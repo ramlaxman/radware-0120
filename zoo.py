@@ -85,7 +85,8 @@ class Zoo():
     def animals_by_color(self, color):
         return '\n'.join([str(one_animal)
                           for one_cage in self.cages
-                          for one_animal in one_cage.animals])
+                          for one_animal in one_cage.animals
+                          if one_animal.color == color])
 
 
 z = Zoo()
