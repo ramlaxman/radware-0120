@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 
 
+class Wolf:
+    def __init__(self, color):
+        self.color = color
+        self.species = 'wolf'
+        self.number_of_legs = 4
+
+
 wolf = Wolf('black')            # species, color, # legs
 sheep1 = Sheep('white')
 sheep2 = Sheep('white')
