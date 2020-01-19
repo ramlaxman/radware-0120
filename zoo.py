@@ -71,6 +71,14 @@ print(c2)                        # cage number + animal printouts
 print('---- zoo -----')
 
 
+class Zoo():
+    def __init__(self):
+        self.cages = []
+
+    def add_cages(self, *args):
+        self.cages += args
+
+
 z = Zoo()
 z.add_cages(c1, c2)
 print(z)                           # show all cages, all animals
