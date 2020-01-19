@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 
 
-population = 0
-
-
 class Person():
     def __init__(self, name):
-        global population
         self.name = name
-        population += 1
+        Person.population += 1
 
     def greet(self):
         return f'Hello, {self.name}'
+
+
+Person.population = 0
 
 
 print(f'Before, population = {population}')
