@@ -13,9 +13,7 @@ class Animal():
 
 class Wolf(Animal):
     def __init__(self, color):
-        self.color = color
-        self.species = 'wolf'
-        self.number_of_legs = 4
+        super().__init__(color, 4)
 
 
 class Sheep(Animal):
