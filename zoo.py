@@ -20,24 +20,18 @@ class Sheep(Animal):
         self.number_of_legs = 4
 
 
-class Snake:
+class Snake(Animal):
     def __init__(self, color):
         self.color = color
         self.species = 'snake'
         self.number_of_legs = 0
 
-    def __repr__(self):
-        return f'{self.color} {self.species}, {self.number_of_legs} legs'
 
-
-class Parrot:
+class Parrot(Animal):
     def __init__(self, color):
         self.color = color
         self.species = 'parrot'
         self.number_of_legs = 2
-
-    def __repr__(self):
-        return f'{self.color} {self.species}, {self.number_of_legs} legs'
 
 
 wolf = Wolf('black')            # species, color, # legs
