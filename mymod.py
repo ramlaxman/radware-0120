@@ -16,6 +16,8 @@ def hello(name):
     return f'Hello, {name}'
 
 
+_secret = 'shhhh'
+
 # if not imported, do the following
 if __name__ == '__main__':
     print(f"Goodbye from {__name__}!")
