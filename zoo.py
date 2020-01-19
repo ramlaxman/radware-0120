@@ -54,6 +54,8 @@ class Cage():
 
     def __repr__(self):
         output = f'Cage {self.id_number}\n'
+        output += '\n'.join([str(one_animal)
+                             for one_animal in self.animals])
         return output
 
 
