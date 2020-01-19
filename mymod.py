@@ -22,4 +22,12 @@ _secret = 'shhhh'
 
 # if not imported, do the following
 if __name__ == '__main__':
+
+    # (1) __name__ could be '__main__':
+    # - python mymod.py
+
+    # (2) __name__ could be 'mymod'
+    # - import mymod
+    # - from mymod import x
+
     print(f"Goodbye from {__name__}!")
