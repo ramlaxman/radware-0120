@@ -87,7 +87,7 @@ z = Zoo()
 z.add_cages(c1, c2)
 print(z)                           # show all cages, all animals
 
-# print(z.animals_by_color('black'))
+print(z.animals_by_color('black'))
 # print(z.number_of_legs())
 
 
