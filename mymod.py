@@ -5,7 +5,7 @@ This is the second line
 This is the third line
 '''
 
-__all__ = ['x', 'y']
+__all__ = ['YOU_SHOULD_NEVER_EVER_EVER_USE_IMPORT_STAR']
 
 
 x = 100
