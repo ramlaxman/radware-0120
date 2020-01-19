@@ -1,3 +1,3 @@
 from . import b
-from . import a
+from .. import x, y
 print("Hello from mypackage.__init__!")
