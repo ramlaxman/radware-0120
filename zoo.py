@@ -14,54 +14,40 @@ print(snake)                     # brown snake, 0 legs
 print(parrot)                    # black parrot, 2 legs
 
 
-c1 = Cage(1)
-c1.add_animals(wolf, sheep1, sheep2)
-print(c1)                        # cage number + animal printouts
+# c1 = Cage(1)
+# c1.add_animals(wolf, sheep1, sheep2)
+# print(c1)                        # cage number + animal printouts
 
 
-c2 = Cage(2)                    # an ID number, not that important
-c2.add_animals(snake, parrot)
-print(c2)                        # cage number + animal printouts
+# c2 = Cage(2)                    # an ID number, not that important
+# c2.add_animals(snake, parrot)
+# print(c2)                        # cage number + animal printouts
 
-print('---- zoo -----')
-
-
-z = Zoo()
-z.add_cages(c1, c2)
-print(z)                           # show all cages, all animals
-
-print(z.animals_by_color('black'))
-print(z.number_of_legs())
+# print('---- zoo -----')
 
 
-#!/usr/bin/env python3
+# z = Zoo()
+# z.add_cages(c1, c2)
+# print(z)                           # show all cages, all animals
+
+# print(z.animals_by_color('black'))
+# print(z.number_of_legs())
 
 
-class Person():
-
-    def __init__(self, name):
-        self.name = name
-
-    def greet(self):
-        return f'Hello, {self.name}'
+# #!/usr/bin/env python3
 
 
-p1 = Person('name1')
-p2 = Person('name2')
+# class Person():
 
-print(p1.greet())
-print(p2.greet())
+#     def __init__(self, name):
+#         self.name = name
 
-
-# class Employee(Person):
-
-#     def __init__(self, name, id_number):
-#         super().__init__(name)
-#         self.id_number = id_number
+#     def greet(self):
+#         return f'Hello, {self.name}'
 
 
-# e1 = Employee('emp1', 1)
-# e2 = Employee('emp2', 2)
+# p1 = Person('name1')
+# p2 = Person('name2')
 
-# print(e1.greet())
-# print(e2.greet())
+# print(p1.greet())
+# print(p2.greet())
