@@ -31,3 +31,5 @@ if __name__ == '__main__':
     # - from mymod import x
 
     print(f"Goodbye from {__name__}!")
+    name = input("Enter your name: ").strip()
+    print(hello(name))
