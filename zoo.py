@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 
+class Animal():
+
+
 class Wolf:
     def __init__(self, color):
         self.color = color
