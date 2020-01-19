@@ -44,14 +44,23 @@ print(snake)                     # brown snake, 0 legs
 print(parrot)                    # black parrot, 2 legs
 
 
-# c1 = Cage(1)
-# c1.add_animals(wolf, sheep1, sheep2)
-# print(c1)                        # cage number + animal printouts
+class Cage():
+    def __init__(self, id_number):
+        self.id_number = id_number
+        self.animals = []
+
+    def add_animals(self, *args):
+        self.animals += args
 
 
-# c2 = Cage(2)                    # an ID number, not that important
-# c2.add_animals(snake, parrot)
-# print(c2)                        # cage number + animal printouts
+c1 = Cage(1)
+c1.add_animals(wolf, sheep1, sheep2)
+print(c1)                        # cage number + animal printouts
+
+
+c2 = Cage(2)                    # an ID number, not that important
+c2.add_animals(snake, parrot)
+print(c2)                        # cage number + animal printouts
 
 # print('---- zoo -----')
 
