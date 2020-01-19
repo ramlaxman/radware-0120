@@ -78,6 +78,10 @@ class Zoo():
     def add_cages(self, *args):
         self.cages += args
 
+    def __repr__(self):
+        return '\n'.join([str(one_cage)
+                          for one_cage in self.cages])
+
 
 z = Zoo()
 z.add_cages(c1, c2)
