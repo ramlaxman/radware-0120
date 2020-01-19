@@ -52,6 +52,10 @@ class Cage():
     def add_animals(self, *args):
         self.animals += args
 
+    def __repr__(self):
+        output = f'Cage {self.id_number}\n'
+        return output
+
 
 c1 = Cage(1)
 c1.add_animals(wolf, sheep1, sheep2)
