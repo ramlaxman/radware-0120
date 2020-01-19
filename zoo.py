@@ -2,6 +2,11 @@
 
 
 class Animal():
+    def __init__(self, color):
+        self.color = color
+        self.species = 'wolf'
+        self.number_of_legs = 4
+
     def __repr__(self):
         return f'{self.color} {self.species}, {self.number_of_legs} legs'
 
