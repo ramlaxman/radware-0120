@@ -8,6 +8,27 @@ class Wolf:
         self.number_of_legs = 4
 
 
+class Sheep:
+    def __init__(self, color):
+        self.color = color
+        self.species = 'sheep'
+        self.number_of_legs = 4
+
+
+class Snake:
+    def __init__(self, color):
+        self.color = color
+        self.species = 'snake'
+        self.number_of_legs = 0
+
+
+class Parrot:
+    def __init__(self, color):
+        self.color = color
+        self.species = 'parrot'
+        self.number_of_legs = 2
+
+
 wolf = Wolf('black')            # species, color, # legs
 sheep1 = Sheep('white')
 sheep2 = Sheep('white')
