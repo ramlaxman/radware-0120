@@ -18,23 +18,17 @@ class Wolf(Animal):
 
 class Sheep(Animal):
     def __init__(self, color):
-        self.color = color
-        self.species = 'sheep'
-        self.number_of_legs = 4
+        super().__init__(color, 4)
 
 
 class Snake(Animal):
     def __init__(self, color):
-        self.color = color
-        self.species = 'snake'
-        self.number_of_legs = 0
+        super().__init__(color, 0)
 
 
 class Parrot(Animal):
     def __init__(self, color):
-        self.color = color
-        self.species = 'parrot'
-        self.number_of_legs = 2
+        super().__init__(color, 2)
 
 
 wolf = Wolf('black')            # species, color, # legs
