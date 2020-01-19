@@ -68,12 +68,12 @@ c2 = Cage(2)                    # an ID number, not that important
 c2.add_animals(snake, parrot)
 print(c2)                        # cage number + animal printouts
 
-# print('---- zoo -----')
+print('---- zoo -----')
 
 
-# z = Zoo()
-# z.add_cages(c1, c2)
-# print(z)                           # show all cages, all animals
+z = Zoo()
+z.add_cages(c1, c2)
+print(z)                           # show all cages, all animals
 
 # print(z.animals_by_color('black'))
 # print(z.number_of_legs())
