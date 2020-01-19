@@ -6,6 +6,7 @@ population = 0
 
 class Person():
     def __init__(self, name):
+        global population
         self.name = name
         population += 1
 
