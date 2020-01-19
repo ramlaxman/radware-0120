@@ -1,4 +1,4 @@
-__all__ = []
+__all__ = []  # whoever does from import *
 
 from . import b
 from .a import x, y
