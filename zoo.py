@@ -88,6 +88,11 @@ class Zoo():
                           for one_animal in one_cage.animals
                           if one_animal.color == color])
 
+    def number_of_legs(self):
+        return sum([one_animal.number_of_legs
+                    for one_cage in self.cages
+                    for one_animal in one_cage.animals])
+
 
 z = Zoo()
 z.add_cages(c1, c2)
