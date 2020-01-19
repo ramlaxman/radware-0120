@@ -53,16 +53,15 @@ print(p1.greet())
 print(p2.greet())
 
 
-class Employee(Person):
+# class Employee(Person):
 
-    def __init__(self, name, id_number):
-        # Person.__init__(self, name)
-        super().__init__(name)
-        self.id_number = id_number
+#     def __init__(self, name, id_number):
+#         super().__init__(name)
+#         self.id_number = id_number
 
 
-e1 = Employee('emp1', 1)
-e2 = Employee('emp2', 2)
+# e1 = Employee('emp1', 1)
+# e2 = Employee('emp2', 2)
 
-print(e1.greet())
-print(e2.greet())
+# print(e1.greet())
+# print(e2.greet())
