@@ -82,6 +82,11 @@ class Zoo():
         return '\n'.join([str(one_cage)
                           for one_cage in self.cages])
 
+    def animals_by_color(self, color):
+        return '\n'.join([str(one_animal)
+                          for one_cage in self.cages
+                          for one_animal in one_cage.animals])
+
 
 z = Zoo()
 z.add_cages(c1, c2)
