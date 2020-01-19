@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import menu
 
 user_choice = menu.get_choice('a', 'b', 'c')
